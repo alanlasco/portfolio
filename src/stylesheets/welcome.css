@@ -1,0 +1,69 @@
+/* .foto {
+    display: grid;
+    width: 100%;
+    height: 450px;
+    background-image: url(../images/R.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #ffffff00;
+} */
+/* imagen fija, para que al hacer scroll se mueva, y hace zoom con hover */
+.welcome-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 250px;
+}
+
+.foto {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    background-image: url(../images/R.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #ffffff00;
+    background-position: center center;
+    object-fit: cover;
+    overflow: hidden;
+    transition: background-size 0.3s ease-in-out;
+    }
+    
+    .foto:hover {
+        background-size: 110% 110%;
+        /* Ajusta el valor (110%) según el nivel de zoom deseado */
+    }
+
+    /* fin del codigo de la imagen */
+    .texto-container{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        height: 250px;
+        width: 250px;
+    }
+    .texto{
+        color: white;
+        display:block;
+        font-family: monospace;
+        white-space: nowrap;
+        font-size: 50px;
+        text-align: center;
+        width: 10ch;
+        border-right: 4px solid;
+        animation: typing 2s steps(10), blink .5s infinite step-end alternate;
+        overflow: hidden;
+    }
+    @keyframes typing {
+        from {width: 0}
+    }
+
+    @keyframes blink {
+        50% {border-color: transparent;}
+    }
+
+    
