@@ -1,0 +1,96 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.3rem;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: burlywood;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 8vh;
+    background-color: rgb(32, 32, 32);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.brand {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.nav-menu {
+
+    display: flex;
+    align-items: column;
+    justify-content: center;
+    gap: 4rem;
+    z-index: 3;
+}
+
+.toggler div {
+    width: 2.5rem;
+    height: 0.2rem;
+    margin: 0.4rem;
+    background: darkgrey;
+    transition: 0.4s ease-in;
+}
+
+.toggler {
+    cursor: pointer;
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    .toggler {
+        display: block;
+    }
+
+    .nav-menu {
+        position: fixed;
+        top: 7vh;
+        right: 0;
+        width: 50%;
+        height: 93vh;
+        background: rgb(32, 32, 32);
+        flex-direction: column;
+        transform: translateX(100%);
+        transition: 0.5s ease-in;
+    }
+}
+
+/*activar clase*/
+.nav-active {
+    transform: translateX(0);
+}
+
+/*animaicon*/
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-4px, 5px);
+}
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-4px, -5px);
+}

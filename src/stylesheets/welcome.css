@@ -10,10 +10,29 @@
 } */
 /* imagen fija, para que al hacer scroll se mueva, y hace zoom con hover */
 .welcome-container {
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
     position: relative;
     overflow: hidden;
+    width: 95%;
+    height: 60%;
+}
+
+.foto-container {
+    position: relative;
     width: 100%;
-    height: 250px;
+    height: 100%;
+}
+
+.foto::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(46, 46, 46, 0.555);
+    /* Filtro gris transparente */
+    z-index: 2;
 }
 
 .foto {
@@ -28,42 +47,141 @@
     background-position: center center;
     object-fit: cover;
     overflow: hidden;
+    z-index: -1;
     transition: background-size 0.3s ease-in-out;
-    }
-    
-    .foto:hover {
-        background-size: 110% 110%;
-        /* Ajusta el valor (110%) según el nivel de zoom deseado */
-    }
+}
 
-    /* fin del codigo de la imagen */
-    .texto-container{
-        display: flex;
-        flex-direction: column;
-        margin: 0 auto;
-        align-items: center;
-        justify-content: center;
-        height: 250px;
-        width: 250px;
-    }
-    .texto{
-        color: white;
-        display:block;
-        font-family: monospace;
-        white-space: nowrap;
-        font-size: 50px;
-        text-align: center;
-        width: 10ch;
-        border-right: 4px solid;
-        animation: typing 2s steps(10), blink .5s infinite step-end alternate;
-        overflow: hidden;
-    }
-    @keyframes typing {
-        from {width: 0}
-    }
+.foto:hover {
+    background-size: 110% 110%;
+    /* Ajusta el valor (110%) según el nivel de zoom deseado */
+}
 
-    @keyframes blink {
-        50% {border-color: transparent;}
-    }
+/* Resto del código sigue igual */
 
-    
+.texto-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    height: 250px;
+    width: 70%;
+}
+
+.texto {
+    color: #88ff64;
+    font-family: "Consolas", "Courier New", "Lucida Console", Monaco, monospace;
+    /* color: #008000; */
+    display: block;
+    white-space: nowrap;
+    font-size: 50px;
+    text-align: center;
+    width: 15ch;
+    border-right: 4px solid;
+    animation: typing 2s steps(15), blink .5s infinite step-end alternate;
+    overflow: hidden;
+    z-index: 2;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+/* Boton ver proyecto */
+button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+button.learn-more {
+    width: 16rem;
+    height: auto;
+    border: 1px solid blue;
+    border-radius: 15px;
+    z-index: 2;
+}
+
+button.learn-more .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #282936;
+    border-radius: 1.625rem;
+}
+
+button.learn-more .circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+}
+
+button.learn-more .circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+}
+
+button.learn-more .circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
+}
+
+button.learn-more .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: 0.30rem;
+    margin: 0 0 0 3.5rem;
+    color: #282936;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+button:hover .circle {
+    width: 100%;
+}
+
+button:hover .circle .icon.arrow {
+    background: #fff;
+    transform: translate(1rem, 0);
+}
+
+button:hover .button-text {
+    color: #fff;
+}
