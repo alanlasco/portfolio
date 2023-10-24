@@ -1,9 +1,9 @@
-import React, {useState} from 'react';
+import { useState } from 'react';
 import '../stylesheets/navbar.css';
-
-export const Navbar = () => {
-    const [active, setActive] = useState<string>('nav-menu');
-    const [toggleIcon, setToggleIcon] = useState<string>('toggler');
+const Navbar = () => {
+    const [active, setActive] = useState('nav-menu');
+    const [toggleIcon, setToggleIcon] = useState('toggler');
+    const [paginaActiva, setPaginaActiva] = useState<string>('home');
 
 
     const navToggle = () => {
@@ -19,12 +19,13 @@ export const Navbar = () => {
 
     return (
         <nav className='nav'>
-            <a href="" className="brand">Alan</a>
+            <a href="" className='brand'>AXL <span className='brand-2'>Dev.</span></a>
             <ul className={active}>
-                <li className="nav-item"><a href="">Inicio</a></li>
-                <li className="nav-item"><a href="">Proyectos</a></li>
-                <li className="nav-item"><a href="">Sobre mi</a></li>
-                <li className="nav-item"><a href="">Contacto</a></li>
+
+                <li onClick={() => setPaginaActiva('home')} className={paginaActiva === 'home' ? 'nav-item activo' : 'nav-item'}><span className='flecha'>&gt;</span> Inicio.</li>
+                <li onClick={() => setPaginaActiva('proyectos')} className={paginaActiva === 'proyectos' ? 'nav-item activo' : 'nav-item'}><span className='flecha'>&gt;</span> Proyectos.</li>
+                <li onClick={() => setPaginaActiva('sobremi')} className={paginaActiva === 'sobremi' ? 'nav-item activo' : 'nav-item'}><span className='flecha'>&gt;</span> Sobre mi.</li>
+                <li onClick={() => setPaginaActiva('contacto')} className={paginaActiva === 'contacto' ? 'nav-item activo' : 'nav-item'}><span className='flecha'>&gt;</span> Contacto</li>
 
             </ul>
             <div onClick={navToggle} className={toggleIcon}>
@@ -35,4 +36,8 @@ export const Navbar = () => {
 
         </nav>
     );
+
+
 }
+
+export default Navbar; 
