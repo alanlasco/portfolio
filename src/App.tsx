@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import { Welcome } from './components/Welcome';
 import Navbar from './components/Navbar';
+import { Aboutme } from './components/Aboutme';
 
 
 
@@ -10,7 +11,8 @@ function App() {
     <div className="App">
       <Navbar/>
       <Welcome />
-    </div>
+      <Aboutme/>     
+     </div>
   );
 }
 
