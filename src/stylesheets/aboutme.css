@@ -48,3 +48,66 @@
     height: 2px;
     border-bottom:#88ff64;
 }
+
+.php, .sql {
+    padding-top: 15px;
+}
+.bootstrap{
+    padding-top: 5px;
+}
+
+.icon {
+
+    width: 60px;
+    height: 60px;
+    margin-right: 25px;
+    cursor: pointer;
+    transition: transform 0.3s;
+    /* Agregar transición para suavizar el cambio de tamaño */
+}
+
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tecnologias {
+    padding-top: 70px;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 55px;
+    padding-bottom: 100px;
+}
+
+.tecnologias-presentacion {
+    color: #88ff64;
+}
+
+.icon-name {
+    text-align: left;
+    transform: translateX(-11px);
+    margin-top: 5px;
+    font-size: 1.3rem;
+    display: none;
+    color: #88ff64;
+}
+
+.icon-container:hover .icon-name {
+    display: block;
+}
+
+/* Cambio de tamaño al hacer hover */
+.icon-container:hover .icon {
+    transform: scale(0.8);
+    /* Define el tamaño deseado al hacer hover */
+}
+
+/* Mantener los otros iconos en su lugar */
+.icon-container:hover .icon+.icon {
+    transform: none;
+    /* Evita que los otros iconos se achiquen */
+}
