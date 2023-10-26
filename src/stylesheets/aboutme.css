@@ -26,6 +26,9 @@
         line-height: 1.5;
 
 }
+.fin{
+    margin-bottom: 100px;
+}
 
 .flecha-2{
     color:#88ff64;
@@ -35,6 +38,7 @@
 
 }
 
+
 .sobre_mi_titulo_2 .sobre_mi_titulo, .flecha-2, .sobre, .texto_resaltado_2{
     font-size: 3rem;
     margin-top: 3.5rem;
@@ -43,11 +47,6 @@
     font-weight: 600;
 }
 
-.separador{
-    width: 5px;
-    height: 2px;
-    border-bottom:#88ff64;
-}
 
 .php, .sql {
     padding-top: 15px;

@@ -7,13 +7,14 @@ import { Projects } from './components/Projects';
 
 
 
+
 function App() {
   return (
     <div className="App">
       <Navbar/>
       <Welcome />
       <Aboutme/>   
-      <Projects />  
+      <Projects />
      </div>
   );
 }

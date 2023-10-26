@@ -1,16 +1,35 @@
-import React from 'react'
-import '../stylesheets/projects.css';
-
-
-
+import React from 'react';
+import { Project } from './Project';
 
 export const Projects = () => {
-  return (
-    <>
-      <div className="image-container">
-        {/* {utilizo de esta manera para poder usar imagenes, de las que pasare parte del string mediante props} */}
-        <div className='image' style={{ backgroundImage: 'url(/img/portfolio-img.jpeg)'}}></div>
-      </div>    
-    </>
-  )
-}
+    return (
+        <> 
+        <div className='contenedor-principal'>
+         <Project
+            nombre="Portfolio"
+            tecnologias="TypeScript, React, CSS3"
+            imagen="portfolio-img.jpeg"
+            descripcion="Primera versión de mi Portfolio personal."
+            />
+         <Project
+            nombre="Web Para Artístas"
+            tecnologias="HTML5, CSS3, Bootstrap4, jQuery"
+            imagen="artist-img.jpeg"
+            descripcion="Página web diseñada para artistas; en este caso, tome elementos de la página oficial del artista y la realice desde 0 añadiendo nuevos estilos."
+            />
+         <Project
+            nombre="ALAN Poetry"
+            tecnologias="TypeScript, React, CSS3"
+            imagen="alanpoetry-img.jpeg"
+            descripcion="Proyecto personal de lectura de poemas, las cuales se obtienen mediante una API utilizando axios."
+            />
+         <Project
+            nombre="CRUD y API; PHP"
+            tecnologias="HTML5, PHP, SQL"
+            imagen="crud-img.jpeg"
+             descripcion="API y CRUD para la manipulación de la base de datos del proyecto ‘ALAN Poetry’No posee estilos elaborados, solamente es para control personal."
+            />                                                                                                             
+        </div>
+        </>
+    );
+};
