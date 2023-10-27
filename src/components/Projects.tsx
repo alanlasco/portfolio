@@ -4,7 +4,9 @@ import { Project } from './Project';
 export const Projects = () => {
     return (
         <> 
-        <div className='contenedor-principal'>
+        <div className='contenedor-principal-projects'>
+                <p className='proyectos'><span className='flecha-2'>&gt;</span><span className='sobre'> Proyectos.</span></p> 
+
          <Project
             nombre="Portfolio"
             tecnologias="TypeScript, React, CSS3"

@@ -1,0 +1,47 @@
+.contact-container{
+    margin-top: 100px;
+    width: 75%;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.contacto {
+    color: rgb(200, 245, 200);
+    font-size: 2.3rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 4rem;
+
+}
+
+.contacto-texto{
+        text-align: center;
+        margin-top: 3.5rem;
+        font-family: Vegur,
+        'PT Sans',
+        Verdana,
+        sans-serif;
+        font-size: 1.7rem;
+        font-weight: 500;
+        color: rgb(226, 241, 226);
+        line-height: 1.5;
+}        
+
+.sub-contacto-texto{
+        color: rgb(200, 245, 200);
+        font-size: 2.3rem;
+        font-weight: 600;
+        text-align: center;
+}        
+
+.gmail{
+    height: 2.5rem;
+    width: 2.7rem;
+}
+
+.email{
+    color: #88ff64;
+    font-size: 1.5rem;
+    
+}

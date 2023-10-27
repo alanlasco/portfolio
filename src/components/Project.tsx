@@ -1,6 +1,6 @@
 import React from 'react';
 import '../stylesheets/projects.css';
-import { reqProject } from './interfaces/reqProject';
+import { reqProject } from './types/reqProject';
 
 export const Project = (props: reqProject) => {
   return (
