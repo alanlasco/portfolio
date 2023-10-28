@@ -170,8 +170,28 @@
         width: 1rem;
     }
 .image-container .image-wrapper img{
-    transform: scale(1.15);
+    transform: scale(1.18);
+    background-size: cover;
+    margin-top: 2%;
 }
+}
+
+@media (max-width: 440px) {
+    .image-container .image-wrapper img {
+            transform: scale(1.18);
+            background-size: cover;
+            margin-top: 4%;
+        }
+
+}
+
+@media (max-width: 361px) {
+    .image-container .image-wrapper img {
+        transform: scale(1.18);
+        background-size: cover;
+        margin-top: 6%;
+    }
+
 }
 .proyectos {
     color: rgb(200, 245, 200);
