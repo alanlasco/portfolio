@@ -9,7 +9,7 @@ export const Welcome = () => {
         <div className='foto'>
           <div className='texto-container'>
             <p className='texto'>{'> '}¡Hola, Mundo!</p>
-            <p className='nombre'>Soy Alan Lasco.</p>
+            <p className='nombre'>Alan X. Lasco.</p>
             <p className='cargo'>Desarrollador web.</p>
             <p className='frase'>
               creando páginas web{' '}
