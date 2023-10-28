@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.3988e882.css",
+    "main.js": "/portfolio/static/js/main.57eac519.js",
+    "static/media/R.jpg": "/portfolio/static/media/R.f74578f63c8f2d5ea0a9.jpg",
+    "static/media/dotnet-icon.png": "/portfolio/static/media/dotnet-icon.3b9610434822aec5e666.png",
+    "static/media/Linux-icon.png": "/portfolio/static/media/Linux-icon.52436d320ae393a934a0.png",
+    "static/media/Csharp-icon.png": "/portfolio/static/media/Csharp-icon.456d41f630085700b5d8.png",
+    "static/media/bootstrap_icon.png": "/portfolio/static/media/bootstrap_icon.3509cc960896bea93e6c.png",
+    "static/media/html-icon.png": "/portfolio/static/media/html-icon.1d7b133e22ffe4829da6.png",
+    "static/media/css-iconn.png": "/portfolio/static/media/css-iconn.9f33c557b92e4e2e1cc8.png",
+    "static/media/Php-icon.png": "/portfolio/static/media/Php-icon.d6e32fa469b805858684.png",
+    "static/media/React-icon.png": "/portfolio/static/media/React-icon.20adfb35ae6a6e5817bf.png",
+    "static/media/JavaScript-logo.png": "/portfolio/static/media/JavaScript-logo.062825dbceed44567e91.png",
+    "static/media/Mysql-icon.png": "/portfolio/static/media/Mysql-icon.cdd30395a241a0ad6b9c.png",
+    "static/media/Jquery-icon.png": "/portfolio/static/media/Jquery-icon.9a7227d1f4ae07212c75.png",
+    "static/media/cv.png": "/portfolio/static/media/cv.f63b08f01a490bafa747.png",
+    "static/media/ts-icon.png": "/portfolio/static/media/ts-icon.cf0efaf73c3cc9d45263.png",
+    "index.html": "/portfolio/index.html",
+    "main.3988e882.css.map": "/portfolio/static/css/main.3988e882.css.map",
+    "main.57eac519.js.map": "/portfolio/static/js/main.57eac519.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3988e882.css",
+    "static/js/main.57eac519.js"
+  ]
+}
