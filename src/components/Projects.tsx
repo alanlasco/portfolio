@@ -21,7 +21,7 @@ export const Projects = () => {
             nombre="Web Para Artístas"
             tecnologias="HTML5, CSS3, Bootstrap4, jQuery"
             imagen="artist-img.jpeg"
-            descripcion="Página web diseñada para artistas; en este caso, tome elementos de la página oficial del artista y la realice desde 0 añadiendo nuevos estilos."
+            descripcion="Página web para artistas; en este caso, tome elementos de la página oficial del artista y la realice desde 0 añadiendo nuevos estilos."
             desplegar='link-icon'
             github="https://github.com/alanlasco/web-for-artists"
             href="https://alanlasco.github.io/web-for-artists/"

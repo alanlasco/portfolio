@@ -66,7 +66,7 @@
 .nombre-proyecto {
     display: none;
     position: absolute;
-    top: 30%;
+    top: 23%;
     left: 15%;
     font-size: 3.5rem;
     color: rgb(151, 231, 151);
@@ -77,7 +77,7 @@
 .tecnologias-proyecto {
     color: #88ff64;
     display: none;
-    top: 45%;
+    top: 40%;
     left: 15%;
     position: absolute;
     font-size: 1.4rem;
@@ -91,7 +91,7 @@
     /* Debería ser "white-space: normal;" para permitir el salto de línea */
     color: rgb(200, 245, 200);
     display: none;
-    top: 55%;
+    top: 53%;
     left: 15%;
     right: 20%;
     position: absolute;
@@ -169,7 +169,9 @@
         height: 1rem;
         width: 1rem;
     }
-
+.image-container .image-wrapper img{
+    transform: scale(1.15);
+}
 }
 .proyectos {
     color: rgb(200, 245, 200);

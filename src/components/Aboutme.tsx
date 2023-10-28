@@ -70,8 +70,7 @@ export const Aboutme = () => {
 
         </div>
         <p className='sobre_mi_titulo_2'>¿Un poco más sobre <span className='texto_resaltado_2'>mí</span>?</p>
-        <p className='sobre_mi_texto fin'>Soy aficionado a la poesía; Estudio antropología, la cual resulta un factor importante para el análisis en la relación que tiene el ser humano con el mundo digital. 
-      </p>
+              <p className='sobre_mi_texto fin'>Soy aficionado a la poesía; Estudio antropología, la cual considero un factor importante para el análisis en la relación que tiene el ser humano con el mundo digital. Actualmente, me encuentro estudiando 6to año de inglés en un instituto. También reparo celulares y computadoras.  </p>
     </div> 
     </>
   )
