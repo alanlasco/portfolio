@@ -8,7 +8,7 @@
     max-width: 700px;
     max-height: 400px;
     min-width: 250px;
-    min-height: 150px;
+    min-height: 190px;
     overflow: hidden;
     margin-bottom: 7rem;
 }
@@ -27,7 +27,7 @@
     transition: transform 0.3s, filter 0.5s;
     filter: saturate(100%) brightness(100%) blur(0px);
     /* Combina ambas propiedades */
-    transform: scale(1.03);
+    transform: scale(1.05);
     transform-origin: center center;
 }
 
@@ -155,12 +155,19 @@
 
     }
     .github-link {
-        top: 70%;
+        top: 78%;
         left: 15%;
         right: 20%;
         height: 1.5rem;
         width: 1.5rem;
 
+    }
+    .link-icon{
+        top: 78%;
+        left: 25%;
+        right: 30%;
+        height: 1.5rem;
+        width: 1.5rem;
     }
 
 }
