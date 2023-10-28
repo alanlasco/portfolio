@@ -5,8 +5,10 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    width: 700px;
-    height: 400px;
+    max-width: 700px;
+    max-height: 400px;
+    min-width: 250px;
+    min-height: 150px;
     overflow: hidden;
     margin-bottom: 7rem;
 }
@@ -18,14 +20,14 @@
 }
 
 .image-container .image-wrapper img {
-    background-size: 100% 100%;
+    background-size: 110% 110%;
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.3s, filter 0.5s;
     filter: saturate(100%) brightness(100%) blur(0px);
     /* Combina ambas propiedades */
-    transform: scale(1);
+    transform: scale(1.03);
     transform-origin: center center;
 }
 
@@ -44,25 +46,35 @@
 .image-container:hover .descripcion-proyecto{
     display: block;
 }
+.image-container:hover .github-link{
+    display: block;
+}
 
+.image-container:hover .link-icon{
+    display: block;
+}
+
+.ocultar{
+    display:none;
+}
 .texto-imagen-container {
     width: 50%;
     height: 100%;
 
 }
 
-.nombre-proyecto{
+.nombre-proyecto {
     display: none;
     position: absolute;
     top: 30%;
     left: 15%;
     font-size: 3.5rem;
-    color:rgb(151, 231, 151);
+    color: rgb(151, 231, 151);
     font-family: Vegur, 'PT Sans', Verdana, sans-serif;
     font-weight: 700;
 }
 
-.tecnologias-proyecto{
+.tecnologias-proyecto {
     color: #88ff64;
     display: none;
     top: 45%;
@@ -71,23 +83,87 @@
     font-size: 1.4rem;
     font-family: Vegur, 'PT Sans', Verdana, sans-serif;
     font-weight: 600;
-
 }
 
-.descripcion-proyecto{
-        overflow: hidden;
-            white-space: wrap;
-        color: rgb(200, 245, 200);
-        display: none;
-        top: 55%;
+.descripcion-proyecto {
+    overflow: hidden;
+    white-space: wrap;
+    /* Debería ser "white-space: normal;" para permitir el salto de línea */
+    color: rgb(200, 245, 200);
+    display: none;
+    top: 55%;
+    left: 15%;
+    right: 20%;
+    position: absolute;
+    font-size: 1.4rem;
+    font-family: Vegur, 'PT Sans', Verdana, sans-serif;
+    font-weight: 500;
+}
+.github-link{
+
+    position: absolute;
+    display:none;
+    top: 75%;
+    left: 15%;
+    right: 20%;
+    font-size: 3.5rem;
+}
+
+.github-link a{
+    width: 5px;
+    margin-right: 15px;
+}
+
+.link-icon a{
+    width: 5px;
+    
+}
+
+.ocultar{
+    display: none;
+}
+
+.link-icon{
+    color: #88ff64;
+    position: absolute;
+    display: none;
+    top: 75%;
+    left: 25%;
+    right: 20%;
+    font-size: 3.5rem;
+}
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+.nombre-proyecto {
+        top: 15%;
+        left: 15%;
+        font-size: 2.5rem;
+
+    }
+
+    .tecnologias-proyecto {
+
+        top: 35%;
+        left: 15%;
+
+    }
+
+    .descripcion-proyecto {
+        top: 50%;
         left: 15%;
         right: 20%;
-        position: absolute;
-        font-size: 1.4rem;
-        font-family: Vegur, 'PT Sans', Verdana, sans-serif;
-        font-weight: 500;
-}
 
+    }
+    .github-link {
+        top: 70%;
+        left: 15%;
+        right: 20%;
+        height: 1.5rem;
+        width: 1.5rem;
+
+    }
+
+}
 .proyectos {
     color: rgb(200, 245, 200);
     font-size: 2.3rem;

@@ -8,7 +8,7 @@ export const Aboutme = () => {
     <br />
     <span className='separador'></span>
     <br />
-    <div className='sobremi-container'>
+    <div id='sobremi' className='sobremi-container'>
               <p className='sobre_mi_titulo'><span className='flecha-2'>&gt;</span><span className='sobre'> Sobre </span><span className='texto_resaltado_2'>mi.</span></p> 
       <p className='sobre_mi_texto'>
         ¡Hola! Soy Alan; desarrollador Front End React. Aunque me considero un programador versátil, gracias a las bases sólidas que me dio estudiar en la Facultad de Informática de La Plata, tanto en lenguajes de bajo nivel, como de alto nivel; lo cual me brinda otra perspectiva y la posibilidad de abarcar distintas tecnologías y áreas del mundo I.T.

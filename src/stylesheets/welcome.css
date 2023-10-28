@@ -35,7 +35,7 @@
     height: 100%;
     display: grid;
     background-image: url(../images/R.jpg);
-    background-size: 100% 100%;
+    background-size: 100% 110%;
     background-repeat: no-repeat;
     background-position-y: center;
     background-attachment:fixed;
@@ -47,10 +47,26 @@
     transition: background-size 0.3s ease-in-out;
 }
 
-.foto:hover {
-    background-size: 112% 112%;
-   
-    /* Ajusta el valor (110%) según el nivel de zoom deseado */
+@media (max-width: 768px) {
+    .foto {
+        background-size: cover;
+        background-attachment: scroll;
+        transform: scale(1);
+        transition: transform 0.4s ease-in-out;
+        /* Cambia la transición para pantallas más pequeñas */
+    }
+
+    .foto:hover {
+        transform: scale(1);
+        /* Desactiva el efecto hover en pantallas más pequeñas */
+    }
+}
+
+@media (min-width: 769px) {
+    .foto:hover {
+        background-size: 110% 125%;
+        /* Activa el efecto hover en pantallas más grandes */
+    }
 }
 
 /* Resto del código sigue igual */

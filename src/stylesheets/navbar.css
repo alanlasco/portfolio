@@ -24,13 +24,13 @@ li {
 
 a {
     text-decoration: none;
-    color: burlywood;
+    color:rgb(200, 245, 200);
 }
 .nav-item{
     color: rgb(200, 245, 200);
     cursor: pointer;
 }
-.nav-item:hover{
+.nav-item:hover a{
     color: white;
 
 }
