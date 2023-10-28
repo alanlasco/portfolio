@@ -6,7 +6,7 @@ export const Project = (props: reqProject) => {
   return (
     <div className="image-container">
       <div className="image-wrapper">
-        <img className="image" src={`/img/${props.imagen}`} alt={props.nombre} />
+        <img className="image" src={require('../images/'+props.imagen)} alt={props.nombre} />
       </div>
       <div className="texto-imagen-container">
         <p className="nombre-proyecto">{props.nombre}</p>
