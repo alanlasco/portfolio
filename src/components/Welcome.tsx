@@ -12,7 +12,7 @@ export const Welcome = () => {
             <p className='nombre'>Alan X. Lasco.</p>
             <p className='cargo'>Desarrollador web.</p>
             <p className='frase'>
-              creando páginas web{' '}
+              Creando páginas web{' '}
               <span className='texto_resaltado'>atractivas</span> e{' '}
               <span className='texto_resaltado'>intuitivas</span> para el usuario.
             </p>
