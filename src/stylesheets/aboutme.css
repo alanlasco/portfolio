@@ -77,19 +77,21 @@
 
 .tecnologias {
 
-    padding-top: 11vh;
+    padding-top: 9vh;
     justify-content: center;
     width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
+    
+    margin-bottom: 9vh;
     height: 43vh;
 }
 @media (max-width: 768px) {
     .tecnologias{
         height: 47vh;
-        margin-bottom: 20vh;
+        margin-bottom: 18vh;
+        
     }
 
 }
