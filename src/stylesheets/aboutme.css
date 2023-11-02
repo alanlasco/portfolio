@@ -59,8 +59,8 @@
 .icon {
     margin-top: 3rem;
         
-    width: 60px;
-    height: 60px;
+    width: 10vh;
+    height: 10vh;
     margin-right: 25px;
     cursor: pointer;
     transition: transform 0.3s;
