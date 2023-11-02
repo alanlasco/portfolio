@@ -24,7 +24,7 @@
         font-size: 1.7rem;
         font-weight: 500;
         color: rgb(226, 241, 226);
-        line-height: 1.5;
+        line-height: 2;
 
 }
 .fin{
@@ -59,8 +59,8 @@
 .icon {
     margin-top: 3rem;
         
-    width: 10vh;
-    height: 10vh;
+    width: 8.5vh;
+    height: 8.5vh;
     margin-right: 25px;
     cursor: pointer;
     transition: transform 0.3s;
