@@ -15,7 +15,6 @@ const Navbar = () => {
     const paginaActual = (prop: string) => {
         setPaginaActiva(prop);
     }
-
     return (
         <nav className='nav'>
             <a href="" className='brand'>AXL <span className='brand-2'>Dev.</span></a>
