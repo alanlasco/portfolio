@@ -12,8 +12,8 @@ export const Project = (props: reqProject) => {
         <p className="nombre-proyecto">{props.nombre}</p>
         <p className="tecnologias-proyecto">{props.tecnologias}</p>
         <p className="descripcion-proyecto">{props.descripcion}</p>
-        <p className="github-link"><a href={props.github} target='_blank'><FaGithub /></a></p>
-        <p className={props.desplegar}><a className={props.ocultar} href={props.href} target='_blank'><FaExternalLinkAlt /></a> </p>
+        <p className="github-link"><a href={props.github} target='_blank'><FaGithub size={'3rem'} /></a></p>
+        <p className={props.desplegar}><a className={props.ocultar} href={props.href} target='_blank'><FaExternalLinkAlt size={'3rem'} /></a> </p>
       </div>
     </div>
   );
