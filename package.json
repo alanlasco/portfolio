@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage":"https://alanlasco.github.io/portfolio",  
+  "homepage": "https://alanlasco.github.io/portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,8 +12,11 @@
     "@types/react": "^18.2.30",
     "@types/react-dom": "^18.2.14",
     "gh-pages": "^6.0.0",
+    "i18next": "^23.7.6",
+    "i18next-http-backend": "^2.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-i18next": "^13.5.0",
     "react-icons": "^4.11.0",
     "react-router-dom": "^6.17.0",
     "react-scripts": "5.0.1",
@@ -23,7 +26,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build", 
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
