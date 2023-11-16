@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import '../stylesheets/navbar.css';
 import { Link, animateScroll as scroll } from 'react-scroll';
+import { LanguagesBtn } from './LanguagesBtn';
 
 const Navbar = () => {
     const [active, setActive] = useState('nav-menu');
@@ -23,6 +24,7 @@ const Navbar = () => {
                 <li ><span className='flecha'>&gt;</span> <Link onClick={() => paginaActual('proyectos')} className={paginaActiva === 'proyectos' ? 'nav-item activo' : 'nav-item'} to="proyectos" smooth={true} duration={500} offset={-100}> Proyectos.</Link></li>
                 <li ><span className='flecha'>&gt;</span> <Link onClick={() => paginaActual('sobremi')} className={paginaActiva === 'sobremi' ? 'nav-item activo' : 'nav-item'} to="sobremi" smooth={true} duration={500} offset={-10}> Sobre mí.</Link></li>
                 <li ><span className='flecha'>&gt;</span> <Link onClick={() => paginaActual('contacto')} className={paginaActiva === 'contacto' ? 'nav-item activo' : 'nav-item'} to="contacto" smooth={true} duration={500} offset={-100}> Contacto.</Link></li>
+                <li><LanguagesBtn/></li>
             </ul>
             <div onClick={navToggle} className={toggleIcon}>
                 <div className="line1"></div>

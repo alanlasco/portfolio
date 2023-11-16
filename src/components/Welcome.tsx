@@ -12,7 +12,7 @@ export const Welcome = () => {
       <div id='inicio' className='welcome-container'>
         <div className='foto'>
           <div className='texto-container'>
-            <p className='texto'>{'> '}{t("texto")}</p>
+            <p className={t("claseTexto")}>{'> '}{t("texto")}</p>
             <p className='nombre'>{t("nombre")}</p>
             <p className='cargo'>{t("cargo")}</p>
             <p className='frase'>

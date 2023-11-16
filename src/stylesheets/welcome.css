@@ -115,7 +115,7 @@
 
 }
 
-.texto {
+.espanol {
     margin-top: 18vh;
     color: #88ff64;
     font-family: "Consolas", "Courier New", "Lucida Console", Monaco, monospace;
@@ -129,7 +129,20 @@
     overflow: hidden;
     z-index: 2;
 }
-
+.ingles {
+    margin-top: 18vh;
+    color: #88ff64;
+    font-family: "Consolas", "Courier New", "Lucida Console", Monaco, monospace;
+    /* color: #008000; */
+    white-space: nowrap;
+    font-size: 2.5rem;
+    text-align: center;
+    width: 16ch;
+    border-right: 4px solid;
+    animation: typing 2s steps(16), blink .5s infinite step-end alternate;
+    overflow: hidden;
+    z-index: 2;
+}
 @keyframes typing {
     from {
         width: 0;

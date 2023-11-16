@@ -1,0 +1,49 @@
+.card-btn-lan {
+
+    height: 5rem;
+    width: 5rem;
+}
+
+.card-btn-lan .language {
+    cursor: pointer;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 5rem;
+    color: #88ff64;
+    font-family: "Consolas", "Courier New", "Lucida Console", Monaco, monospace;
+    font-size: 2rem;
+    text-decoration: none;
+    transition: 0.25s;
+    border-radius: 50px;
+}
+
+.card-btn-lan {
+    transform: scale(1);
+}
+
+.card-btn-lan .language:hover {
+
+    background-color: rgba(45, 173, 45, 0.055);
+    ;
+    animation: bounce_613 0.4s linear;
+}
+
+@keyframes bounce_613 {
+    40% {
+        transform: scale(1.4);
+    }
+
+    60% {
+        transform: scale(0.8);
+    }
+
+    80% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

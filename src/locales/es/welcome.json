@@ -1,12 +1,12 @@
 {
     "texto": "¡Hola, Mundo!",
+    "claseTexto": "espanol",
     "nombre": "Alan X. Lasco.",
     "cargo": "Desarrollador web.",
-    "frase": "Creando páginas web",
-    "fraseDos": " para el usuario.",
-    "textoResaltadoUno": "atractivas",
+    "frase":"Creando páginas web",
+    "textoResaltadoUno":"atractivas",
     "and":"e",
-    "textoResaltadoDos": "intuitivas",
-    "proyectos": "Proyectos."
-
+    "textoResaltadoDos":"intuitivas",
+    "fraseDos": "para el usuario.",
+    "proyectos": "proyectos"
 }
