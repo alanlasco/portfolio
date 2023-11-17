@@ -12,10 +12,12 @@ i18n
             es: {
                 // Asegúrate de ajustar la ruta según la estructura de tu proyecto
                 welcome: require('../locales/es/welcome.json'),
+                aboutme: require('../locales/es/aboutme.json'),
             },
 
             en: {
                 welcome: require('../locales/en/welcome.json'),
+                aboutme: require('../locales/en/aboutme.json'),
             },
             // Puedes agregar más idiomas según sea necesario
             // en: { welcome: require('./locales/en/welcome.json') }
