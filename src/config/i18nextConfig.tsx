@@ -14,12 +14,14 @@ i18n
                 navbar: require('../locales/es/navbar.json'),
                 welcome: require('../locales/es/welcome.json'),
                 aboutme: require('../locales/es/aboutme.json'),
+                contact: require('../locales/es/contact.json'),
             },
 
             en: {
                 navbar: require('../locales/en/navbar.json'),
                 welcome: require('../locales/en/welcome.json'),
                 aboutme: require('../locales/en/aboutme.json'),
+                contact: require('../locales/en/contact.json'),
             },
             // Puedes agregar más idiomas según sea necesario
             // en: { welcome: require('./locales/en/welcome.json') }

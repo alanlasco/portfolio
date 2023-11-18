@@ -1,17 +1,19 @@
 import React from 'react'
 import '../stylesheets/contact.css';
+import { useTranslation } from 'react-i18next';
 
 
 
 export const Contact = () => {
+    const { t } = useTranslation(["contact"]);
   return (
     <>
     <div className='contact-container'>
         <br />
         <p id='contacto' className='contacto'><span className='flecha-2'>&gt;</span><span className='sobre'> Contacto.</span></p>         
-        <p className='sub-contacto-texto'>¿Te gustaría ponerte en contacto o trabajar conmigo?</p>  
+        <p className='sub-contacto-texto'>{t("contactotexto")}</p>  
         <div className='contacto-texto'>
-        <p>Contactame mediante email o Linkedn</p>
+        <p>{t("contactotextodos")}</p>
         <br />
         <img className='gmail' src={require('../icons/gmail-icon.png')} alt="" /><span className='email'>alanxavierlasco@gmail.com</span>
         </div>
