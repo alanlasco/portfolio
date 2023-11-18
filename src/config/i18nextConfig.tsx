@@ -11,11 +11,13 @@ i18n
         resources: {
             es: {
                 // Asegúrate de ajustar la ruta según la estructura de tu proyecto
+                navbar: require('../locales/es/navbar.json'),
                 welcome: require('../locales/es/welcome.json'),
                 aboutme: require('../locales/es/aboutme.json'),
             },
 
             en: {
+                navbar: require('../locales/en/navbar.json'),
                 welcome: require('../locales/en/welcome.json'),
                 aboutme: require('../locales/en/aboutme.json'),
             },
