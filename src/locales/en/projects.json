@@ -1,11 +1,11 @@
 {
-    "titulo": " Proyectos.",
+    "titulo": " Projects.",
     "proyectounonombre": "Portfolio",
-    "proyectounoinfo": "Primera versión de mi Portfolio personal.",
-    "proyectodosnombre": "Web Para Artístas",
-    "proyectodosinfo": "Página web para artistas; en este caso, tome elementos de la página oficial del artista y la realice desde 0 añadiendo nuevos estilos.",
+    "proyectounoinfo": "First version of my personal Portfolio.",
+    "proyectodosnombre": "Web for Artists",
+    "proyectodosinfo": "Website for artists; in this case, I took elements from the official website of the artist to build it from scratch, adding new styles.",
     "proyectotresnombre": "ALAN Poetry",
-    "proyectotresinfo": "Proyecto personal de lectura de poemas, las cuales se obtienen mediante una API utilizando axios.",
-    "proyectocuatronombre": "CRUD y API; PHP",
-    "proyectocuatroinfo": "API y CRUD para el control personal de la base de datos del proyecto ‘ALAN Poetry’ sin estilos elaborados."
+    "proyectotresinfo": "Personal project for the reading of poems, which are obtained by consuming an API using axios.",
+    "proyectocuatronombre": "CRUD & API; PHP",
+    "proyectocuatroinfo": "API and CRUD for personal management of the 'ALAN Poetry' project database without any elaborated styles."
 }
