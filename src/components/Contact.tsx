@@ -10,7 +10,7 @@ export const Contact = () => {
     <>
     <div className='contact-container'>
         <br />
-        <p id='contacto' className='contacto'><span className='flecha-2'>&gt;</span><span className='sobre'> Contacto.</span></p>         
+        <p id='contacto' className='contacto'><span className='flecha-2'>&gt;</span><span className='sobre'> {t("titulo")}</span></p>         
         <p className='sub-contacto-texto'>{t("contactotexto")}</p>  
         <div className='contacto-texto'>
         <p>{t("contactotextodos")}</p>
