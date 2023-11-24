@@ -1,47 +1,49 @@
 import React from 'react';
 import { Project } from './Project';
+import { useTranslation } from 'react-i18next';
 
 export const Projects = () => {
+   const { t } = useTranslation(["projects"]);
     return (
         <> 
         <div  className='contenedor-principal-projects'>
-                <p id='proyectos' className='proyectos'><span className='flecha-2'>&gt;</span><span className='sobre'> Proyectos.</span></p> 
+                <p id='proyectos' className='proyectos'><span className='flecha-2'>&gt;</span><span className='sobre'>{t("titulo")}</span></p> 
 
          <Project
-            nombre="Portfolio"
+            nombre={ t("proyectounonombre")  }
             tecnologias="TypeScript, React, CSS3"
             imagen="portfolio-img.jpeg"
-            descripcion="Primera versión de mi Portfolio personal."
+            descripcion={t("proyectounoinfo")}
             desplegar=""
             github="https://github.com/alanlasco/portfolio"
             href=""
             ocultar='ocultar'            
             />
          <Project
-            nombre="Web Para Artístas"
+            nombre={t("proyectodosnombre")}
             tecnologias="HTML5, CSS3, Bootstrap4, jQuery"
             imagen="artist-img.jpeg"
-            descripcion="Página web para artistas; en este caso, tome elementos de la página oficial del artista y la realice desde 0 añadiendo nuevos estilos."
+            descripcion={t("proyectodosinfo")}
             desplegar='link-icon'
             github="https://github.com/alanlasco/web-for-artists"
             href="https://alanlasco.github.io/web-for-artists/"
             ocultar=""           
            />
          <Project
-            nombre="ALAN Poetry"
+            nombre={t("proyectotresnombre")}
             tecnologias="TypeScript, React, CSS3"
             imagen="alanpoetry-img.jpeg"
-            descripcion="Proyecto personal de lectura de poemas, las cuales se obtienen mediante una API utilizando axios."
+            descripcion={t("proyectotresinfo")}
             desplegar=''
             github="https://github.com/alanlasco/alan-poetry"
             href=""
             ocultar='ocultar'
             />
          <Project
-            nombre="CRUD y API; PHP"
+            nombre={t("proyectocuatronombre")}
             tecnologias="HTML5, PHP, SQL"
             imagen="crud-img.jpeg"
-            descripcion="API y CRUD para el control personal de la base de datos del proyecto ‘ALAN Poetry’ sin estilos elaborados."
+            descripcion={t("proyectocuatroinfo")}
             desplegar=''
             github='https://github.com/alanlasco/crud-alan-poetry-php'
             href=''          

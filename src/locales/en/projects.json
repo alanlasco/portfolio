@@ -1,0 +1,11 @@
+{
+    "titulo": " Proyectos.",
+    "proyectounonombre": "Portfolio",
+    "proyectounoinfo": "Primera versión de mi Portfolio personal.",
+    "proyectodosnombre": "Web Para Artístas",
+    "proyectodosinfo": "Página web para artistas; en este caso, tome elementos de la página oficial del artista y la realice desde 0 añadiendo nuevos estilos.",
+    "proyectotresnombre": "ALAN Poetry",
+    "proyectotresinfo": "Proyecto personal de lectura de poemas, las cuales se obtienen mediante una API utilizando axios.",
+    "proyectocuatronombre": "CRUD y API; PHP",
+    "proyectocuatroinfo": "API y CRUD para el control personal de la base de datos del proyecto ‘ALAN Poetry’ sin estilos elaborados."
+}

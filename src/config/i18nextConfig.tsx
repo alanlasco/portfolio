@@ -15,6 +15,7 @@ i18n
                 welcome: require('../locales/es/welcome.json'),
                 aboutme: require('../locales/es/aboutme.json'),
                 contact: require('../locales/es/contact.json'),
+                projects: require('../locales/es/projects.json'),
             },
 
             en: {
@@ -22,6 +23,7 @@ i18n
                 welcome: require('../locales/en/welcome.json'),
                 aboutme: require('../locales/en/aboutme.json'),
                 contact: require('../locales/en/contact.json'),
+                projects: require('../locales/en/projects.json'),
             },
             // Puedes agregar más idiomas según sea necesario
             // en: { welcome: require('./locales/en/welcome.json') }
