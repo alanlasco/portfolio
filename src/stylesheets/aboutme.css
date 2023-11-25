@@ -1,6 +1,6 @@
 .sobremi-container{
     
-    padding-top: 100px;
+    padding-top: 7vh;
     width: 80%;
     margin: 0 auto;
     align-content: center;
@@ -28,7 +28,7 @@
 
 }
 .fin{
-    margin-bottom: 100px;
+    margin-bottom: 7vh;
 }
 
 .flecha-2{
@@ -90,7 +90,7 @@
 @media (max-width: 768px) {
     .tecnologias{
         height: 47vh;
-        margin-bottom: 18vh;
+        margin-bottom: 22vh;
         
     }
 

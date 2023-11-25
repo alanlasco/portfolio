@@ -155,7 +155,7 @@
 
     }
     .github-link {
-        top: 78%;
+        top: 77%;
         left: 15%;
         right: 20%;
         height: 1rem;
@@ -163,7 +163,7 @@
 
     }
     .link-icon{
-        top: 78%;
+        top: 77%;
         left: 25%;
         right: 30%;
         height: 1rem;
@@ -182,14 +182,33 @@
             background-size: cover;
             margin-top: 4%;
         }
+    .nombre-proyecto {
+        top: 10%;
+        left: 15%;
+        font-size: 1.9rem;
+
+    }
+
+    .tecnologias-proyecto {
+        top: 25%;
+        left: 15%;
+
+    }
+
+    .descripcion-proyecto {
+        top: 40%;
+        left: 15%;
+        right: 20%;
+
+    }    
 
 }
 
-@media (max-width: 361px) {
+@media (max-width: 400px) {
     .image-container .image-wrapper img {
-        transform: scale(1.18);
+        transform: scale(1.50);
         background-size: cover;
-        margin-top: 6%;
+        margin-top: 6vh;
     }
     
 
