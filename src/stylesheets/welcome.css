@@ -47,6 +47,16 @@
     transition: background-size 0.3s ease-in-out;
 }
 
+@media (max-width: 432px) {
+    .ingles{
+        margin-top: 4vh;
+    }
+    .espanol{
+        margin-top: 4vh;
+    }
+    
+}
+
 @media (max-width: 768px) {
     .foto {
         background-size: cover;
