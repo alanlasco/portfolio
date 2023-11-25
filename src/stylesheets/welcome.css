@@ -47,16 +47,19 @@
     transition: background-size 0.3s ease-in-out;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 421px) {
     .ingles{
         margin-top: 8vh;
     }
     .espanol{
         margin-top: 8vh;
     }
-    
+    .texto-container{
+        margin-left: 4vh;
+        justify-content: left;
+    }
 }
-@media (min-width: 401px) {
+@media (min-width: 422px) {
     .ingles{
         margin-top: 18vh;
     }
@@ -67,6 +70,10 @@
     .welcome-container{
         width: 90%;
     }   
+    .texto-container{
+        margin: 0 auto;
+        justify-content: center;
+    }
 }
 
 @media (max-width: 768px) {
@@ -94,9 +101,7 @@
 /* Resto del código sigue igual */
 
 .texto-container {
-    margin: 0 auto;
-    justify-content: center;
-    height: 250px;
+    height: 100%;
     width: 75%;
     z-index: 2;
 }
