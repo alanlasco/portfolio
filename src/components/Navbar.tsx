@@ -50,7 +50,7 @@ const Navbar = () => {
             to="proyectos"
             smooth={true}
             duration={500}
-            offset={-100}
+            offset={-150}
           >
             {" "}
             {t("proyectos")}
@@ -66,7 +66,7 @@ const Navbar = () => {
             to="sobremi"
             smooth={true}
             duration={500}
-            offset={-10}
+            offset={-150}
           >
             {" "}
             {t("sobremi")}
@@ -82,7 +82,7 @@ const Navbar = () => {
             to="contacto"
             smooth={true}
             duration={500}
-            offset={-100}
+            offset={-150}
           >
             {" "}
             {t("contacto")}
