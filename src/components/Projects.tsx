@@ -17,21 +17,12 @@ export const Projects = () => {
           tecnologias="TypeScript, React, TailwindCSS"
           imagen="rickymorty.png"
           descripcion={t("proyectoceroinfo")}
-          desplegar=""
+          desplegar="https://alanlasco.github.io/rick-and-morty/"
           github="https://github.com/alanlasco/rick-and-morty"
           href=""
           ocultar="ocultar"
         />
-        <Project
-          nombre={t("proyectounonombre")}
-          tecnologias="TypeScript, React, CSS3"
-          imagen="portfolio-img.jpeg"
-          descripcion={t("proyectounoinfo")}
-          desplegar=""
-          github="https://github.com/alanlasco/portfolio"
-          href=""
-          ocultar="ocultar"
-        />
+
         <Project
           nombre={t("proyectodosnombre")}
           tecnologias="HTML5, CSS3, Bootstrap4, jQuery"
@@ -59,6 +50,16 @@ export const Projects = () => {
           descripcion={t("proyectocuatroinfo")}
           desplegar=""
           github="https://github.com/alanlasco/crud-alan-poetry-php"
+          href=""
+          ocultar="ocultar"
+        />
+        <Project
+          nombre={t("proyectounonombre")}
+          tecnologias="TypeScript, React, CSS3"
+          imagen="portfolio-img.jpeg"
+          descripcion={t("proyectounoinfo")}
+          desplegar=""
+          github="https://github.com/alanlasco/portfolio"
           href=""
           ocultar="ocultar"
         />
