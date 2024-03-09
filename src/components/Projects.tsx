@@ -17,9 +17,9 @@ export const Projects = () => {
           tecnologias="TypeScript, React, TailwindCSS"
           imagen="rickymorty.png"
           descripcion={t("proyectoceroinfo")}
-          desplegar="https://alanlasco.github.io/rick-and-morty/"
+          desplegar="link-icon"
           github="https://github.com/alanlasco/rick-and-morty"
-          href=""
+          href="https://alanlasco.github.io/rick-and-morty/"
           ocultar="ocultar"
         />
 
