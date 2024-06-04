@@ -13,13 +13,13 @@ export const Projects = () => {
         </p>
         <div className="allProjects">
           <Project
-            nombre={t("proyectoceronombre")}
+            nombre={t("proyectomenosunonombre")}
             tecnologias="HTML5, CSS, JavaScript"
             imagen="assassinscreed.png"
-            descripcion={t("proyectoceroinfo")}
+            descripcion={t("proyectomenosunoinfo")}
             desplegar="link-icon"
-            github="https://github.com/alanlasco/rick-and-morty"
-            href="https://alanlasco.github.io/rick-and-morty/"
+            github="https://github.com/alanlasco/proyecto-codo-a-codo"
+            href="https://alanlasco.github.io/proyecto-codo-a-codo/"
             ocultar=""
           />
           <Project
