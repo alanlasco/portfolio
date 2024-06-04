@@ -14,7 +14,7 @@ export const Projects = () => {
         <div className="allProjects">
           <Project
             nombre={t("proyectomenosunonombre")}
-            tecnologias="HTML5, CSS, JavaScript"
+            tecnologias="HTML5, CSS3, JavaScript"
             imagen="assassinscreed.png"
             descripcion={t("proyectomenosunoinfo")}
             desplegar="link-icon"
