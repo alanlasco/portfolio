@@ -12,7 +12,8 @@ html {
 body {
     font-size: 1.3rem;
 }
-.flecha{
+
+.flecha {
     color: #88ff64;
     font-size: 1.7rem;
     font-weight: 700;
@@ -24,20 +25,24 @@ li {
 
 a {
     text-decoration: none;
-    color:rgb(200, 245, 200);
+    color: rgb(200, 245, 200);
 }
-.nav-item{
+
+.nav-item {
     color: rgb(200, 245, 200);
     cursor: pointer;
 }
-.nav-item:hover a{
+
+.nav-item:hover a {
     color: white;
 
 }
+
 .activo {
     padding-bottom: 3px;
     border-bottom: 3px solid #88ff64;
 }
+
 .nav {
 
     position: fixed;
@@ -46,9 +51,9 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding-bottom: 3.5rem;;
+    padding-bottom: 1.5em;
     background-color: rgb(32, 32, 32);
-    padding-top: 45px;
+    padding-top: 1.5em;
 }
 
 .brand {
@@ -56,9 +61,12 @@ a {
     text-transform: uppercase;
     font-weight: bold;
 }
-.brand-2{
-    color: #88ff64;;
+
+.brand-2 {
+    color: #88ff64;
+    ;
 }
+
 .nav-menu {
 
     display: flex;
@@ -87,25 +95,29 @@ a {
     }
 
     .nav-menu {
+        padding-top: 8vh;
         position: fixed;
-        top: 10vh;
+        top: 5vh;
         right: 0;
         width: 50%;
-        height: 90vh;
+        height: 100vh;
         background: rgb(32, 32, 32);
         flex-direction: column;
+        justify-content: flex-start;
         transform: translateX(100%);
         transition: 0.5s ease-in;
     }
-     .nav-active {
+
+    .nav-active {
         position: fixed;
         top: 0;
-        margin-top: 7rem;
-                    /* Fija en la parte superior */
-        }
-    .activo{
+        margin-top: 3em;
+        /* Fija en la parte superior */
+    }
+
+    .activo {
         border-bottom: 0;
-    }    
+    }
 }
 
 /*activar clase*/
