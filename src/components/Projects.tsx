@@ -13,6 +13,26 @@ export const Projects = () => {
         </p>
         <div className="allProjects">
           <Project
+            nombre={t("proyectomenosdosnombre")}
+            tecnologias="HTML5, CSS3, TypeScript, React"
+            imagen="dotdager.png"
+            descripcion={t("proyectomenosdosinfo")}
+            desplegar="link-icon"
+            github="https://github.com/alanlasco/dot-dagger"
+            href="https://alanlasco.github.io/dot-dagger/"
+            ocultar=""
+          />
+          <Project
+            nombre={t("proyectomenostresnombre")}
+            tecnologias="HTML5, CSS3, TypeScript"
+            imagen="emwebtool.png"
+            descripcion={t("proyectomenostresinfo")}
+            desplegar="link-icon"
+            github="https://github.com/alanlasco/imu-em-web-helper"
+            href="https://alanlasco.github.io/imu-em-web-helper/"
+            ocultar=""
+          />
+          <Project
             nombre={t("proyectomenosunonombre")}
             tecnologias="HTML5, CSS3, JavaScript"
             imagen="assassinscreed.png"
