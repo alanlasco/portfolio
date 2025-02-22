@@ -21,7 +21,12 @@ const Navbar = () => {
   return (
     <nav className="nav">
       <a href="" className="brand">
-        AXL <span className="brand-2">Dev.</span>
+        {/* AXL <span className="brand-2">Dev.</span> */}
+        <img
+          className="brand-logo"
+          src={require("../images/logos-02.png")}
+          alt=""
+        />
       </a>
       <ul className={active}>
         <li>

@@ -19,11 +19,16 @@ body {
     font-weight: 700;
 }
 
+.brand-logo {
+    max-height: 7rem;
+}
+
 li {
     list-style: none;
 }
 
 a {
+    font-size: 1.8rem;
     text-decoration: none;
     color: rgb(200, 245, 200);
 }
@@ -51,9 +56,9 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding-bottom: 1.5em;
+    padding-bottom: 1.5rem;
     background-color: rgb(32, 32, 32);
-    padding-top: 1.5em;
+    padding-top: 1.5rem;
 }
 
 .brand {
@@ -68,7 +73,7 @@ a {
 }
 
 .nav-menu {
-
+    margin-top: 3rem;
     display: flex;
     align-items: column;
     justify-content: center;
@@ -110,7 +115,7 @@ a {
 
     .nav-active {
         position: fixed;
-        top: 0;
+
         margin-top: 3em;
         /* Fija en la parte superior */
     }

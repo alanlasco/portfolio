@@ -33,11 +33,11 @@
     width: 100%;
     height: 100%;
     display: grid;
-    background-image: url(../images/R.jpg);
-    background-size: 100% 110%;
+    background-image: url(../images/Earth-Green.jpeg);
+    background-size: 110% 125%;
     background-repeat: no-repeat;
     background-position-y: center;
-    background-attachment: fixed;
+    background-attachment: inherit;
     background-color: #ffffff00;
     background-position: center center;
     object-fit: cover;
